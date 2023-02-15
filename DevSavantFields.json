@@ -1,0 +1,1595 @@
+[
+  {
+    "id": 636,
+    "name": "# de empleado",
+    "type": "employee_number",
+    "alias": "employeeNumber"
+  },
+  {
+    "id": 1610,
+    "name": "Acceso de autoservicio",
+    "type": "employee_access"
+  },
+  {
+    "id": 4464,
+    "name": "Account Number",
+    "type": "text"
+  },
+  {
+    "id": 4442,
+    "name": "Activo: Notas",
+    "type": "text"
+  },
+  {
+    "id": 4436,
+    "name": "Activos: Categoría",
+    "type": "list"
+  },
+  {
+    "id": 4441,
+    "name": "Activos: Costo",
+    "type": "currency"
+  },
+  {
+    "id": "4441.1",
+    "name": "Activos: Costo - Currency code",
+    "type": "text"
+  },
+  {
+    "id": 4437,
+    "name": "Activos: Descripción",
+    "type": "text"
+  },
+  {
+    "id": 4440,
+    "name": "Activos: fecha de devolución",
+    "type": "date"
+  },
+  {
+    "id": 4439,
+    "name": "Activos: fecha de préstamo",
+    "type": "date"
+  },
+  {
+    "id": 4438,
+    "name": "Activos: Número de serie",
+    "type": "text"
+  },
+  {
+    "id": 4481,
+    "name": "Additional Address Information",
+    "type": "list",
+    "alias": "customAdditionalAddressInformation"
+  },
+  {
+    "id": 4603,
+    "name": "Additional Information",
+    "type": "textarea"
+  },
+  {
+    "id": 4404,
+    "name": "Alergias",
+    "type": "text",
+    "alias": "allergies"
+  },
+  {
+    "id": 2,
+    "name": "Apellido",
+    "type": "text",
+    "alias": "lastName"
+  },
+  {
+    "id": 1924,
+    "name": "Apellido del dependiente",
+    "type": "text"
+  },
+  {
+    "id": 4626,
+    "name": "ARL",
+    "type": "list"
+  },
+  {
+    "id": 4462,
+    "name": "Bank Account Type",
+    "type": "list"
+  },
+  {
+    "id": 4461,
+    "name": "Bank Name",
+    "type": "text"
+  },
+  {
+    "id": "4516.6",
+    "name": "Bereavement leave - Ajustes (YTD)",
+    "type": "int"
+  },
+  {
+    "id": "4516.7",
+    "name": "Bereavement leave - Balance actual",
+    "type": "time_off_type"
+  },
+  {
+    "id": "4516.3",
+    "name": "Bereavement leave - Balance Disponible",
+    "type": "int"
+  },
+  {
+    "id": "4516.4",
+    "name": "Bereavement leave - Días cogidas (YTD)",
+    "type": "int"
+  },
+  {
+    "id": "4516.1",
+    "name": "Bereavement leave - Días devengadas",
+    "type": "int"
+  },
+  {
+    "id": "4516.5",
+    "name": "Bereavement leave - Días programadas",
+    "type": "int"
+  },
+  {
+    "id": "4516.8",
+    "name": "Bereavement leave - Fecha de Inicio de Acumulación",
+    "type": "time_off_type"
+  },
+  {
+    "id": "4516.2",
+    "name": "Bereavement leave - Política",
+    "type": "text"
+  },
+  {
+    "id": 4516,
+    "name": "Bereavement leave - Política asignada",
+    "type": "time_off_type_exists"
+  },
+  {
+    "id": 1934,
+    "name": "C.P. del dependiente",
+    "type": "text"
+  },
+  {
+    "id": 4622,
+    "name": "Caja de compensación",
+    "type": "list"
+  },
+  {
+    "id": 4331,
+    "type": "pay_period",
+    "deprecated": true,
+    "name": "Pay Period",
+    "alias": "payPeriod"
+  },
+  {
+    "id": 4386,
+    "name": "Calendario de pagos",
+    "type": "list",
+    "alias": "paySchedule"
+  },
+  {
+    "id": 4579,
+    "name": "Calendario de pagos",
+    "type": "list"
+  },
+  {
+    "id": 4056,
+    "name": "Canal de Twitter",
+    "type": "twitter_handle",
+    "alias": "twitterFeed"
+  },
+  {
+    "id": 4588,
+    "name": "Change Reason",
+    "type": "list"
+  },
+  {
+    "id": 10,
+    "name": "Ciudad",
+    "type": "text",
+    "alias": "city"
+  },
+  {
+    "id": 4300,
+    "name": "Ciudadano estadounidense dependiente",
+    "type": "checkbox"
+  },
+  {
+    "id": 692,
+    "name": "Ciudad de contacto de emergencia",
+    "type": "text"
+  },
+  {
+    "id": 1931,
+    "name": "Ciudad del dependiente",
+    "type": "text"
+  },
+  {
+    "id": 4573,
+    "name": "Client",
+    "type": "list"
+  },
+  {
+    "id": 4596,
+    "name": "Client Lead",
+    "type": "list"
+  },
+  {
+    "id": 4575,
+    "name": "Client Seniority",
+    "type": "list"
+  },
+  {
+    "id": 4589,
+    "name": "Comentarios",
+    "type": "textarea"
+  },
+  {
+    "id": 4045,
+    "name": "Comentarios sobre la remuneración",
+    "type": "textarea"
+  },
+  {
+    "id": 4046,
+    "name": "Comentarios sobre la situación laboral",
+    "type": "textarea"
+  },
+  {
+    "id": 4580,
+    "name": "Company Cost",
+    "type": "currency"
+  },
+  {
+    "id": "4580.1",
+    "name": "Company Cost - Currency code",
+    "type": "text"
+  },
+  {
+    "id": "4020.1",
+    "name": "Completado - Categoría",
+    "type": "list"
+  },
+  {
+    "id": "4020.2",
+    "name": "Completado - Completado",
+    "type": "date"
+  },
+  {
+    "id": "4020.3",
+    "name": "Completado - Coste",
+    "type": "currency"
+  },
+  {
+    "id": "4020.4",
+    "name": "Completado - Créditos",
+    "type": "int"
+  },
+  {
+    "id": "4020.5",
+    "name": "Completado - Horas",
+    "type": "int"
+  },
+  {
+    "id": "4020.6",
+    "name": "Completado - Instructor",
+    "type": "text"
+  },
+  {
+    "id": "4020.7",
+    "name": "Completado - Notas",
+    "type": "text"
+  },
+  {
+    "id": 4020,
+    "name": "Completado - Título",
+    "type": "training_type"
+  },
+  {
+    "id": "4497.2",
+    "name": "Computer Financing - Cobertura",
+    "type": "employee_new_benefit_coverage_type"
+  },
+  {
+    "id": "4497.3",
+    "name": "Computer Financing - El empleado paga",
+    "type": "text"
+  },
+  {
+    "id": "4497.6",
+    "name": "Computer Financing - El empleado paga - Código de moneda",
+    "type": "new_benefit"
+  },
+  {
+    "id": 4497,
+    "name": "Computer Financing - Estado",
+    "type": "new_benefit_status"
+  },
+  {
+    "id": "4497.1",
+    "name": "Computer Financing - Fecha efectiva",
+    "type": "date"
+  },
+  {
+    "id": "4497.5",
+    "name": "Computer Financing - Fecha elegible",
+    "type": "date"
+  },
+  {
+    "id": "4497.4",
+    "name": "Computer Financing - La empresa paga",
+    "type": "text"
+  },
+  {
+    "id": "4497.7",
+    "name": "Computer Financing - La empresa paga - Código de moneda",
+    "type": "new_benefit"
+  },
+  {
+    "id": 4289,
+    "name": "Contacto de emergencia primario",
+    "type": "checkbox"
+  },
+  {
+    "id": 4299,
+    "name": "Contactos de emergencia",
+    "type": "employee_contacts"
+  },
+  {
+    "id": 4586,
+    "name": "Contract Type",
+    "type": "list"
+  },
+  {
+    "id": 2123,
+    "name": "Correo electrónico del contacto de emergencia",
+    "type": "email"
+  },
+  {
+    "id": 15,
+    "name": "Correo electrónico del trabajo",
+    "type": "email",
+    "alias": "workEmail"
+  },
+  {
+    "id": 1357,
+    "name": "Correo electrónico personal",
+    "type": "email",
+    "alias": "homeEmail"
+  },
+  {
+    "id": 12,
+    "name": "Código postal",
+    "type": "text",
+    "alias": "zipcode"
+  },
+  {
+    "id": 689,
+    "name": "Código postal de contacto de emergencia",
+    "type": "text"
+  },
+  {
+    "id": 4,
+    "name": "Departamento",
+    "type": "list",
+    "alias": "department"
+  },
+  {
+    "id": 4610,
+    "name": "Devolution Date",
+    "type": "date"
+  },
+  {
+    "id": 4593,
+    "name": "DevSavant Teamlead",
+    "type": "list"
+  },
+  {
+    "id": 4594,
+    "name": "DevSavant Techlead",
+    "type": "list"
+  },
+  {
+    "id": 8,
+    "name": "Dirección 1",
+    "type": "text",
+    "alias": "address1"
+  },
+  {
+    "id": 691,
+    "name": "Dirección 1 de contacto de emergencia",
+    "type": "text"
+  },
+  {
+    "id": 1929,
+    "name": "Dirección 1 del dependiente",
+    "type": "text"
+  },
+  {
+    "id": 9,
+    "name": "Dirección 2",
+    "type": "text",
+    "alias": "address2"
+  },
+  {
+    "id": 2124,
+    "name": "Dirección 2 del contacto de emergencia",
+    "type": "text"
+  },
+  {
+    "id": 1930,
+    "name": "Dirección 2 del dependiente",
+    "type": "text"
+  },
+  {
+    "id": 1355,
+    "name": "División",
+    "type": "list",
+    "alias": "division"
+  },
+  {
+    "id": "4525.6",
+    "name": "Domestic calamity leave - Ajustes (YTD)",
+    "type": "int"
+  },
+  {
+    "id": "4525.7",
+    "name": "Domestic calamity leave - Balance actual",
+    "type": "time_off_type"
+  },
+  {
+    "id": "4525.3",
+    "name": "Domestic calamity leave - Balance Disponible",
+    "type": "int"
+  },
+  {
+    "id": "4525.4",
+    "name": "Domestic calamity leave - Días cogidas (YTD)",
+    "type": "int"
+  },
+  {
+    "id": "4525.1",
+    "name": "Domestic calamity leave - Días devengadas",
+    "type": "int"
+  },
+  {
+    "id": "4525.5",
+    "name": "Domestic calamity leave - Días programadas",
+    "type": "int"
+  },
+  {
+    "id": "4525.8",
+    "name": "Domestic calamity leave - Fecha de Inicio de Acumulación",
+    "type": "time_off_type"
+  },
+  {
+    "id": "4525.2",
+    "name": "Domestic calamity leave - Política",
+    "type": "text"
+  },
+  {
+    "id": 4525,
+    "name": "Domestic calamity leave - Política asignada",
+    "type": "time_off_type_exists"
+  },
+  {
+    "id": 4298,
+    "name": "Educación del empleado: fecha de finalización",
+    "type": "date"
+  },
+  {
+    "id": 4297,
+    "name": "Educación del empleado: fecha de inicio",
+    "type": "date"
+  },
+  {
+    "id": 4578,
+    "name": "Effective Date",
+    "type": "date"
+  },
+  {
+    "id": 4601,
+    "name": "Effective Date",
+    "type": "date"
+  },
+  {
+    "id": 4617,
+    "name": "Effective Date",
+    "type": "date"
+  },
+  {
+    "id": 4621,
+    "name": "Effective Date",
+    "type": "date"
+  },
+  {
+    "id": 4628,
+    "name": "Effective Date",
+    "type": "date"
+  },
+  {
+    "id": 4172,
+    "name": "Emitido",
+    "type": "date"
+  },
+  {
+    "id": "4487.2",
+    "name": "English Lessons - Cobertura",
+    "type": "employee_new_benefit_coverage_type"
+  },
+  {
+    "id": "4487.3",
+    "name": "English Lessons - El empleado paga",
+    "type": "text"
+  },
+  {
+    "id": "4487.6",
+    "name": "English Lessons - El empleado paga - Código de moneda",
+    "type": "new_benefit"
+  },
+  {
+    "id": 4487,
+    "name": "English Lessons - Estado",
+    "type": "new_benefit_status"
+  },
+  {
+    "id": "4487.1",
+    "name": "English Lessons - Fecha efectiva",
+    "type": "date"
+  },
+  {
+    "id": "4487.5",
+    "name": "English Lessons - Fecha elegible",
+    "type": "date"
+  },
+  {
+    "id": "4487.4",
+    "name": "English Lessons - La empresa paga",
+    "type": "text"
+  },
+  {
+    "id": "4487.7",
+    "name": "English Lessons - La empresa paga - Código de moneda",
+    "type": "new_benefit"
+  },
+  {
+    "id": 4629,
+    "name": "Entidad Medicina Prepagada",
+    "type": "list"
+  },
+  {
+    "id": 4625,
+    "name": "EPS",
+    "type": "list"
+  },
+  {
+    "id": 4295,
+    "name": "Especialización",
+    "type": "text"
+  },
+  {
+    "id": 11,
+    "name": "Estado",
+    "type": "state",
+    "alias": "state"
+  },
+  {
+    "id": 387,
+    "type": "status",
+    "deprecated": true,
+    "name": "Employment Status",
+    "alias": "employmentStatus"
+  },
+  {
+    "id": 387,
+    "name": "Estado",
+    "type": "status",
+    "alias": "status"
+  },
+  {
+    "id": 155,
+    "name": "Estado civil",
+    "type": "marital_status",
+    "alias": "maritalStatus"
+  },
+  {
+    "id": 690,
+    "name": "Estado de contacto de emergencia",
+    "type": "state"
+  },
+  {
+    "id": 16,
+    "name": "Estado de empleo",
+    "type": "list",
+    "alias": "employmentHistoryStatus"
+  },
+  {
+    "id": "16.1",
+    "name": "Estado de empleo - FTE",
+    "type": "list",
+    "alias": "employmentHistoryStatus"
+  },
+  {
+    "id": 4042,
+    "name": "Estado de horas extras",
+    "type": "exempt",
+    "alias": "exempt"
+  },
+  {
+    "id": 1932,
+    "name": "Estado del dependiente",
+    "type": "state"
+  },
+  {
+    "id": 4301,
+    "name": "Estudiante a tiempo completo dependiente",
+    "type": "checkbox"
+  },
+  {
+    "id": 4057,
+    "name": "Facebook URL",
+    "type": "contact_url",
+    "alias": "facebook"
+  },
+  {
+    "id": 4569,
+    "name": "Fecha de comienzo",
+    "type": "date"
+  },
+  {
+    "id": 3,
+    "name": "Fecha de contratación",
+    "type": "date",
+    "alias": "hireDate"
+  },
+  {
+    "id": 4333,
+    "name": "Fecha de contratación original",
+    "type": "date",
+    "alias": "originalHireDate"
+  },
+  {
+    "id": 4175,
+    "name": "Fecha de inicio de nivel de acumulación",
+    "type": "date"
+  },
+  {
+    "id": 1928,
+    "name": "Fecha de nac. Del dependiente",
+    "type": "date"
+  },
+  {
+    "id": 6,
+    "name": "Fecha de nacimiento",
+    "type": "date",
+    "alias": "dateOfBirth"
+  },
+  {
+    "id": 4585,
+    "name": "Flexibility Scheme",
+    "type": "text"
+  },
+  {
+    "id": 4623,
+    "name": "Fondo de Cesantías",
+    "type": "list"
+  },
+  {
+    "id": 4624,
+    "name": "Fondo de Pensión",
+    "type": "list"
+  },
+  {
+    "id": 4590,
+    "name": "Gross Compensation",
+    "type": "currency"
+  },
+  {
+    "id": "4590.1",
+    "name": "Gross Compensation - Currency code",
+    "type": "text"
+  },
+  {
+    "id": 4631,
+    "name": "Guide",
+    "type": "textarea"
+  },
+  {
+    "id": 154,
+    "name": "Género",
+    "type": "gender",
+    "alias": "gender"
+  },
+  {
+    "id": 4607,
+    "name": "Headhunter/ Referral",
+    "type": "list"
+  },
+  {
+    "id": 4608,
+    "name": "Headhunter Cost/ Referral Cost",
+    "type": "currency"
+  },
+  {
+    "id": "4608.1",
+    "name": "Headhunter Cost/ Referral Cost - Currency code",
+    "type": "text"
+  },
+  {
+    "id": 1502,
+    "name": "Historial de beneficios",
+    "type": "benefit_history"
+  },
+  {
+    "id": 4576,
+    "name": "Horas por ciclo de pago",
+    "type": "text",
+    "alias": "hoursPerPayCycle"
+  },
+  {
+    "id": 4591,
+    "name": "Housing Bonus",
+    "type": "currency"
+  },
+  {
+    "id": "4591.1",
+    "name": "Housing Bonus - Currency code",
+    "type": "text"
+  },
+  {
+    "id": 4047,
+    "name": "Información del cargo: Fecha",
+    "type": "date"
+  },
+  {
+    "id": 4063,
+    "name": "Int. del trabajo del contacto de emergencia",
+    "type": "text"
+  },
+  {
+    "id": 635,
+    "name": "Int. de trabajo",
+    "type": "text",
+    "alias": "workPhoneExtension"
+  },
+  {
+    "id": "4513.6",
+    "name": "Licencia médica - Ajustes (YTD)",
+    "type": "int"
+  },
+  {
+    "id": "4513.7",
+    "name": "Licencia médica - Balance actual",
+    "type": "time_off_type"
+  },
+  {
+    "id": "4513.3",
+    "name": "Licencia médica - Balance Disponible",
+    "type": "int"
+  },
+  {
+    "id": "4513.4",
+    "name": "Licencia médica - Días cogidas (YTD)",
+    "type": "int"
+  },
+  {
+    "id": "4513.1",
+    "name": "Licencia médica - Días devengadas",
+    "type": "int"
+  },
+  {
+    "id": "4513.5",
+    "name": "Licencia médica - Días programadas",
+    "type": "int"
+  },
+  {
+    "id": "4513.8",
+    "name": "Licencia médica - Fecha de Inicio de Acumulación",
+    "type": "time_off_type"
+  },
+  {
+    "id": "4513.2",
+    "name": "Licencia médica - Política",
+    "type": "text"
+  },
+  {
+    "id": 4513,
+    "name": "Licencia médica - Política asignada",
+    "type": "time_off_type_exists"
+  },
+  {
+    "id": 4058,
+    "name": "LinkedIn URL",
+    "type": "contact_url",
+    "alias": "linkedIn"
+  },
+  {
+    "id": "4507.6",
+    "name": "Maternity Leave - Ajustes (YTD)",
+    "type": "int"
+  },
+  {
+    "id": "4507.7",
+    "name": "Maternity Leave - Balance actual",
+    "type": "time_off_type"
+  },
+  {
+    "id": "4507.3",
+    "name": "Maternity Leave - Balance Disponible",
+    "type": "int"
+  },
+  {
+    "id": "4507.4",
+    "name": "Maternity Leave - Días cogidas (YTD)",
+    "type": "int"
+  },
+  {
+    "id": "4507.1",
+    "name": "Maternity Leave - Días devengadas",
+    "type": "int"
+  },
+  {
+    "id": "4507.5",
+    "name": "Maternity Leave - Días programadas",
+    "type": "int"
+  },
+  {
+    "id": "4507.8",
+    "name": "Maternity Leave - Fecha de Inicio de Acumulación",
+    "type": "time_off_type"
+  },
+  {
+    "id": "4507.2",
+    "name": "Maternity Leave - Política",
+    "type": "text"
+  },
+  {
+    "id": 4507,
+    "name": "Maternity Leave - Política asignada",
+    "type": "time_off_type_exists"
+  },
+  {
+    "id": "4486.2",
+    "name": "Medicina Prepagada - Cobertura",
+    "type": "employee_new_benefit_coverage_type"
+  },
+  {
+    "id": "4486.3",
+    "name": "Medicina Prepagada - El empleado paga",
+    "type": "text"
+  },
+  {
+    "id": "4486.6",
+    "name": "Medicina Prepagada - El empleado paga - Código de moneda",
+    "type": "new_benefit"
+  },
+  {
+    "id": 4486,
+    "name": "Medicina Prepagada - Estado",
+    "type": "new_benefit_status"
+  },
+  {
+    "id": "4486.1",
+    "name": "Medicina Prepagada - Fecha efectiva",
+    "type": "date"
+  },
+  {
+    "id": "4486.5",
+    "name": "Medicina Prepagada - Fecha elegible",
+    "type": "date"
+  },
+  {
+    "id": "4486.4",
+    "name": "Medicina Prepagada - La empresa paga",
+    "type": "text"
+  },
+  {
+    "id": "4486.7",
+    "name": "Medicina Prepagada - La empresa paga - Código de moneda",
+    "type": "new_benefit"
+  },
+  {
+    "id": "4632.6",
+    "name": "Menstrual Leave - Ajustes (YTD)",
+    "type": "int"
+  },
+  {
+    "id": "4632.7",
+    "name": "Menstrual Leave - Balance actual",
+    "type": "time_off_type"
+  },
+  {
+    "id": "4632.3",
+    "name": "Menstrual Leave - Balance Disponible",
+    "type": "int"
+  },
+  {
+    "id": "4632.4",
+    "name": "Menstrual Leave - Días cogidas (YTD)",
+    "type": "int"
+  },
+  {
+    "id": "4632.1",
+    "name": "Menstrual Leave - Días devengadas",
+    "type": "int"
+  },
+  {
+    "id": "4632.5",
+    "name": "Menstrual Leave - Días programadas",
+    "type": "int"
+  },
+  {
+    "id": "4632.8",
+    "name": "Menstrual Leave - Fecha de Inicio de Acumulación",
+    "type": "time_off_type"
+  },
+  {
+    "id": "4632.2",
+    "name": "Menstrual Leave - Política",
+    "type": "text"
+  },
+  {
+    "id": 4632,
+    "name": "Menstrual Leave - Política asignada",
+    "type": "time_off_type_exists"
+  },
+  {
+    "id": "4522.6",
+    "name": "Miscarriage or nonviable premature delivery  leave - Ajustes (YTD)",
+    "type": "int"
+  },
+  {
+    "id": "4522.7",
+    "name": "Miscarriage or nonviable premature delivery  leave - Balance actual",
+    "type": "time_off_type"
+  },
+  {
+    "id": "4522.3",
+    "name": "Miscarriage or nonviable premature delivery  leave - Balance Disponible",
+    "type": "int"
+  },
+  {
+    "id": "4522.4",
+    "name": "Miscarriage or nonviable premature delivery  leave - Días cogidas (YTD)",
+    "type": "int"
+  },
+  {
+    "id": "4522.1",
+    "name": "Miscarriage or nonviable premature delivery  leave - Días devengadas",
+    "type": "int"
+  },
+  {
+    "id": "4522.5",
+    "name": "Miscarriage or nonviable premature delivery  leave - Días programadas",
+    "type": "int"
+  },
+  {
+    "id": "4522.8",
+    "name": "Miscarriage or nonviable premature delivery  leave - Fecha de Inicio de Acumulación",
+    "type": "time_off_type"
+  },
+  {
+    "id": "4522.2",
+    "name": "Miscarriage or nonviable premature delivery  leave - Política",
+    "type": "text"
+  },
+  {
+    "id": 4522,
+    "name": "Miscarriage or nonviable premature delivery  leave - Política asignada",
+    "type": "time_off_type_exists"
+  },
+  {
+    "id": 4017,
+    "name": "Motivo del cambio de remuneración",
+    "type": "list",
+    "alias": "payChangeReason"
+  },
+  {
+    "id": 4314,
+    "name": "Motivo del despido",
+    "type": "list"
+  },
+  {
+    "id": 4390,
+    "name": "Nacionalidad",
+    "type": "list",
+    "alias": "nationality"
+  },
+  {
+    "id": 4488,
+    "name": "National ID #",
+    "type": "text",
+    "alias": "customNationalID#"
+  },
+  {
+    "id": 4582,
+    "name": "Net Payments",
+    "type": "currency"
+  },
+  {
+    "id": "4582.1",
+    "name": "Net Payments - Currency code",
+    "type": "text"
+  },
+  {
+    "id": 1,
+    "name": "Nombre",
+    "type": "text",
+    "alias": "firstName"
+  },
+  {
+    "id": 158,
+    "name": "Nombre del contacto de emergencia",
+    "type": "text"
+  },
+  {
+    "id": 1923,
+    "name": "Nombre del dependiente",
+    "type": "text"
+  },
+  {
+    "id": 1358,
+    "type": "text",
+    "deprecated": true,
+    "name": "Nickname",
+    "alias": "nickname"
+  },
+  {
+    "id": 1358,
+    "name": "Nombre preferido",
+    "type": "text",
+    "alias": "preferredName"
+  },
+  {
+    "id": 4174,
+    "name": "Nota",
+    "type": "text"
+  },
+  {
+    "id": 7,
+    "name": "NSS",
+    "type": "ssn",
+    "alias": "ssn"
+  },
+  {
+    "id": 4391,
+    "name": "Número de pasaporte",
+    "type": "passport_number"
+  },
+  {
+    "id": 4330,
+    "name": "Pagado por",
+    "type": "paid_per",
+    "alias": "payPer"
+  },
+  {
+    "id": 4392,
+    "name": "Pasaporte: fecha de emisión",
+    "type": "passport_issued"
+  },
+  {
+    "id": 4393,
+    "name": "Pasaporte: fecha de vencimiento",
+    "type": "passport_expiry"
+  },
+  {
+    "id": "4510.6",
+    "name": "Paternity Leave - Ajustes (YTD)",
+    "type": "int"
+  },
+  {
+    "id": "4510.7",
+    "name": "Paternity Leave - Balance actual",
+    "type": "time_off_type"
+  },
+  {
+    "id": "4510.3",
+    "name": "Paternity Leave - Balance Disponible",
+    "type": "int"
+  },
+  {
+    "id": "4510.4",
+    "name": "Paternity Leave - Días cogidas (YTD)",
+    "type": "int"
+  },
+  {
+    "id": "4510.1",
+    "name": "Paternity Leave - Días devengadas",
+    "type": "int"
+  },
+  {
+    "id": "4510.5",
+    "name": "Paternity Leave - Días programadas",
+    "type": "int"
+  },
+  {
+    "id": "4510.8",
+    "name": "Paternity Leave - Fecha de Inicio de Acumulación",
+    "type": "time_off_type"
+  },
+  {
+    "id": "4510.2",
+    "name": "Paternity Leave - Política",
+    "type": "text"
+  },
+  {
+    "id": 4510,
+    "name": "Paternity Leave - Política asignada",
+    "type": "time_off_type_exists"
+  },
+  {
+    "id": 4605,
+    "name": "Payroll Cost",
+    "type": "currency"
+  },
+  {
+    "id": "4605.1",
+    "name": "Payroll Cost - Currency code",
+    "type": "text"
+  },
+  {
+    "id": 3991,
+    "name": "País",
+    "type": "country",
+    "alias": "country"
+  },
+  {
+    "id": 4599,
+    "name": "País",
+    "type": "list"
+  },
+  {
+    "id": 4396,
+    "name": "País de emisión",
+    "type": "country"
+  },
+  {
+    "id": 3993,
+    "name": "País del contacto de emergencia",
+    "type": "country"
+  },
+  {
+    "id": 3992,
+    "name": "País del dependiente",
+    "type": "country"
+  },
+  {
+    "id": 4171,
+    "name": "País que emite",
+    "type": "country"
+  },
+  {
+    "id": "4597.2",
+    "name": "Prepagada - Cobertura",
+    "type": "employee_new_benefit_coverage_type"
+  },
+  {
+    "id": "4597.3",
+    "name": "Prepagada - El empleado paga",
+    "type": "text"
+  },
+  {
+    "id": "4597.6",
+    "name": "Prepagada - El empleado paga - Código de moneda",
+    "type": "new_benefit"
+  },
+  {
+    "id": 4597,
+    "name": "Prepagada - Estado",
+    "type": "new_benefit_status"
+  },
+  {
+    "id": "4597.1",
+    "name": "Prepagada - Fecha efectiva",
+    "type": "date"
+  },
+  {
+    "id": "4597.5",
+    "name": "Prepagada - Fecha elegible",
+    "type": "date"
+  },
+  {
+    "id": "4597.4",
+    "name": "Prepagada - La empresa paga",
+    "type": "text"
+  },
+  {
+    "id": "4597.7",
+    "name": "Prepagada - La empresa paga - Código de moneda",
+    "type": "new_benefit"
+  },
+  {
+    "id": 4595,
+    "name": "Project",
+    "type": "list"
+  },
+  {
+    "id": 4296,
+    "name": "Promedio",
+    "type": "text"
+  },
+  {
+    "id": "4604.2",
+    "name": "Prueba Prepagada - Cobertura",
+    "type": "employee_new_benefit_coverage_type"
+  },
+  {
+    "id": "4604.3",
+    "name": "Prueba Prepagada - El empleado paga",
+    "type": "text"
+  },
+  {
+    "id": "4604.6",
+    "name": "Prueba Prepagada - El empleado paga - Código de moneda",
+    "type": "new_benefit"
+  },
+  {
+    "id": 4604,
+    "name": "Prueba Prepagada - Estado",
+    "type": "new_benefit_status"
+  },
+  {
+    "id": "4604.1",
+    "name": "Prueba Prepagada - Fecha efectiva",
+    "type": "date"
+  },
+  {
+    "id": "4604.5",
+    "name": "Prueba Prepagada - Fecha elegible",
+    "type": "date"
+  },
+  {
+    "id": "4604.4",
+    "name": "Prueba Prepagada - La empresa paga",
+    "type": "text"
+  },
+  {
+    "id": "4604.7",
+    "name": "Prueba Prepagada - La empresa paga - Código de moneda",
+    "type": "new_benefit"
+  },
+  {
+    "id": 4315,
+    "name": "Puede ser recontratado",
+    "type": "list"
+  },
+  {
+    "id": 17,
+    "name": "Puesto Laboral",
+    "type": "list",
+    "alias": "jobTitle"
+  },
+  {
+    "id": 4609,
+    "name": "Referred from",
+    "type": "text"
+  },
+  {
+    "id": 160,
+    "name": "Relación con el contacto de emergencia",
+    "type": "list"
+  },
+  {
+    "id": 1926,
+    "name": "Relación con el dependiente",
+    "type": "relationship"
+  },
+  {
+    "id": 4021,
+    "name": "Remuneración: Fecha",
+    "type": "date",
+    "alias": "payRateEffectiveDate"
+  },
+  {
+    "id": 91,
+    "name": "Reporta a",
+    "type": "employee"
+  },
+  {
+    "id": 4463,
+    "name": "Routing Number",
+    "type": "text"
+  },
+  {
+    "id": 4583,
+    "name": "Salary",
+    "type": "currency"
+  },
+  {
+    "id": "4583.1",
+    "name": "Salary - Currency code",
+    "type": "text"
+  },
+  {
+    "id": 4587,
+    "name": "Salary Type",
+    "type": "list"
+  },
+  {
+    "id": 5,
+    "name": "Segundo nombre",
+    "type": "text",
+    "alias": "middleName"
+  },
+  {
+    "id": 1925,
+    "name": "Segundo nombre del dependiente",
+    "type": "text"
+  },
+  {
+    "id": 4618,
+    "name": "Seniority",
+    "type": "list"
+  },
+  {
+    "id": 1927,
+    "name": "Sexo del dependiente",
+    "type": "gender"
+  },
+  {
+    "id": 4302,
+    "name": "Situación Laboral: A Tiempo Completo según ACA",
+    "type": "aca_status",
+    "alias": "acaStatus"
+  },
+  {
+    "id": 1936,
+    "name": "Situación laboral: fecha",
+    "type": "date",
+    "alias": "employeeStatusDate"
+  },
+  {
+    "id": 1933,
+    "name": "SSN del dependiente",
+    "type": "ssn"
+  },
+  {
+    "id": 4619,
+    "name": "Sublevel",
+    "type": "list"
+  },
+  {
+    "id": 4598,
+    "name": "Swift Code",
+    "type": "text"
+  },
+  {
+    "id": 4412,
+    "name": "Talla de camisa",
+    "type": "list",
+    "alias": "shirtSize"
+  },
+  {
+    "id": 19,
+    "name": "Tarifa de pago",
+    "type": "currency",
+    "alias": "payRate"
+  },
+  {
+    "id": "19.1",
+    "name": "Tarifa de pago - Currency code",
+    "type": "text",
+    "alias": "payRate"
+  },
+  {
+    "id": 4403,
+    "name": "Tasa de horas extra",
+    "type": "currency",
+    "alias": "overtimeRate"
+  },
+  {
+    "id": "4403.1",
+    "name": "Tasa de horas extra - Currency code",
+    "type": "text",
+    "alias": "overtimeRate"
+  },
+  {
+    "id": 634,
+    "name": "Teléfono de trabajo",
+    "type": "phone",
+    "alias": "workPhone"
+  },
+  {
+    "id": 4044,
+    "name": "Teléfono laboral del contacto de emergencia",
+    "type": "phone"
+  },
+  {
+    "id": 13,
+    "name": "Teléfono móvil",
+    "type": "phone",
+    "alias": "mobilePhone"
+  },
+  {
+    "id": 693,
+    "name": "Teléfono móvil de contacto de emergencia",
+    "type": "phone"
+  },
+  {
+    "id": 14,
+    "name": "Teléfono Personal",
+    "type": "phone",
+    "alias": "homePhone"
+  },
+  {
+    "id": 159,
+    "name": "Teléfono personal del contacto de emergencia",
+    "type": "phone"
+  },
+  {
+    "id": 1935,
+    "name": "Teléfono personal del dependiente",
+    "type": "phone"
+  },
+  {
+    "id": 4313,
+    "name": "Tipo de despido",
+    "type": "list"
+  },
+  {
+    "id": 156,
+    "name": "Tipo de pago",
+    "type": "pay_type",
+    "alias": "payType"
+  },
+  {
+    "id": 4630,
+    "name": "Tipo de Plan",
+    "type": "list"
+  },
+  {
+    "id": 4614,
+    "name": "Tool",
+    "type": "list"
+  },
+  {
+    "id": 4612,
+    "name": "Tool Code",
+    "type": "list"
+  },
+  {
+    "id": 4615,
+    "name": "Tool Information",
+    "type": "textarea"
+  },
+  {
+    "id": 4635,
+    "name": "Tool Status",
+    "type": "list"
+  },
+  {
+    "id": 4294,
+    "name": "Título",
+    "type": "list"
+  },
+  {
+    "id": 18,
+    "name": "Ubicación",
+    "type": "list",
+    "alias": "location"
+  },
+  {
+    "id": 4293,
+    "name": "Universidad/Instituto",
+    "type": "text"
+  },
+  {
+    "id": "4519.6",
+    "name": "Unpaid leave - Ajustes (YTD)",
+    "type": "int"
+  },
+  {
+    "id": "4519.7",
+    "name": "Unpaid leave - Balance actual",
+    "type": "time_off_type"
+  },
+  {
+    "id": "4519.3",
+    "name": "Unpaid leave - Balance Disponible",
+    "type": "int"
+  },
+  {
+    "id": "4519.4",
+    "name": "Unpaid leave - Días cogidas (YTD)",
+    "type": "int"
+  },
+  {
+    "id": "4519.1",
+    "name": "Unpaid leave - Días devengadas",
+    "type": "int"
+  },
+  {
+    "id": "4519.5",
+    "name": "Unpaid leave - Días programadas",
+    "type": "int"
+  },
+  {
+    "id": "4519.8",
+    "name": "Unpaid leave - Fecha de Inicio de Acumulación",
+    "type": "time_off_type"
+  },
+  {
+    "id": "4519.2",
+    "name": "Unpaid leave - Política",
+    "type": "text"
+  },
+  {
+    "id": 4519,
+    "name": "Unpaid leave - Política asignada",
+    "type": "time_off_type_exists"
+  },
+  {
+    "id": "4482.6",
+    "name": "Vacations - Ajustes (YTD)",
+    "type": "int"
+  },
+  {
+    "id": "4482.7",
+    "name": "Vacations - Balance actual",
+    "type": "time_off_type"
+  },
+  {
+    "id": "4482.3",
+    "name": "Vacations - Balance Disponible",
+    "type": "int"
+  },
+  {
+    "id": "4482.4",
+    "name": "Vacations - Días cogidas (YTD)",
+    "type": "int"
+  },
+  {
+    "id": "4482.1",
+    "name": "Vacations - Días devengadas",
+    "type": "int"
+  },
+  {
+    "id": "4482.5",
+    "name": "Vacations - Días programadas",
+    "type": "int"
+  },
+  {
+    "id": "4482.8",
+    "name": "Vacations - Fecha de Inicio de Acumulación",
+    "type": "time_off_type"
+  },
+  {
+    "id": "4482.2",
+    "name": "Vacations - Política",
+    "type": "text"
+  },
+  {
+    "id": 4482,
+    "name": "Vacations - Política asignada",
+    "type": "time_off_type_exists"
+  },
+  {
+    "id": 4506,
+    "name": "Vacations  póliza - Asignado",
+    "type": "time_off_policy_exists"
+  },
+  {
+    "id": "4506.1",
+    "name": "Vacations  póliza - Empezó en",
+    "type": "date"
+  },
+  {
+    "id": 4173,
+    "name": "Vencimiento",
+    "type": "date"
+  },
+  {
+    "id": 4170,
+    "name": "Visa",
+    "type": "list"
+  },
+  {
+    "id": 4169,
+    "name": "Visa: fecha",
+    "type": "date"
+  },
+  {
+    "id": -38,
+    "name": "Fecha de terminación",
+    "type": "date",
+    "alias": "terminationDate"
+  }
+]
