@@ -49,7 +49,7 @@ payload = {
                    'dateOfBirth':'dateOfBirth'},
     
     "name": "Webhook-employee",
-    "url": url_out + str('/updateEmployee'),
+    "url": out_url + str('/updateEmployee'),
     "format": "json"
 }
 headers = {
@@ -57,11 +57,9 @@ headers = {
     "content-type": "application/json"
 }
 response = requests.put(url,
-                        auth=('4c8e8e71887eb161878b200bfb61198e2795d008', 'DevSavant'), 
+                        auth=(TOKEN, 'DevSavant'), 
                         headers=headers, json=payload)
 print(response.text)
-
-#%%
 
 url = "https://api.bamboohr.com/api/gateway.php/devsavant/v1/webhooks/"
 payload = {
@@ -83,7 +81,7 @@ headers = {
     "content-type": "application/json"
 }
 response = requests.post(url,
-                        auth=('4c8e8e71887eb161878b200bfb61198e2795d008', 'DevSavant'), 
+                        auth=(TOKEN, 'DevSavant'), 
                         headers=headers, json=payload)
 print(response.text)
 
